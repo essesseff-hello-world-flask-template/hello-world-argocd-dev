@@ -8,12 +8,6 @@ metadata:
     environment: dev
     essesseff: "true"
     essesseff.io.repositoryId: "{{REPOSITORY_ID}}"
-  annotations:
-    notifications.argoproj.io/subscribe.on-sync-started.webhook: webhook-{{REPOSITORY_ID}}
-    notifications.argoproj.io/subscribe.on-sync-succeeded.webhook: webhook-{{REPOSITORY_ID}}
-    notifications.argoproj.io/subscribe.on-sync-failed.webhook: webhook-{{REPOSITORY_ID}}
-    notifications.argoproj.io/subscribe.on-deployed.webhook: webhook-{{REPOSITORY_ID}}
-    notifications.argoproj.io/subscribe.on-health-degraded.webhook: webhook-{{REPOSITORY_ID}}
 spec:
   project: default
   source:
