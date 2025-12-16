@@ -2,7 +2,7 @@
 
 # setup-argocd.sh
 
-# Setup Argo CD for {{APP_NAME}} {{ENVIRONMENT}}
+# Setup Argo CD for hello-world dev
 
 # This script sets up Argo CD notifications for an essesseff app
 # Template variables (hello-world, essesseff-hello-world-go-template, {{REPOSITORY_ID}}, etc.) 
