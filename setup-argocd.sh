@@ -6,7 +6,7 @@
 
 # This script sets up Argo CD notifications for an essesseff app as well as the Argo CD deployment
 # configuration for the app.
-# Template variables (${APP_NAME}, essesseff-hello-world-go-template, {{REPOSITORY_ID}}, etc.) 
+# Template variables (${APP_NAME}, essesseff-hello-world-flask-template, {{REPOSITORY_ID}}, etc.) 
 # are replaced when apps are created from templates.
 
 set -e
